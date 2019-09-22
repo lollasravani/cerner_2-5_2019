@@ -1,0 +1,16 @@
+*>cerner_2^5_2019
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+DATA DIVISION.
+    WORKING-STORAGE SECTION.
+        77 radius PIC 99.
+        77 result PIC 9999v9999.
+        77 Z PIC 9999.
+        77 Pi PIC 99v99.
+PROCEDURE DIVISION.
+    ACCEPT radius.
+    MULTIPLY radius BY 2 GIVING Z.
+    DIVIDE 22 BY 7 GIVING Pi.
+    MULTIPLY Z BY Pi GIVING result
+    DISPLAY "Circumference of the circle = "result.
+STOP RUN.
