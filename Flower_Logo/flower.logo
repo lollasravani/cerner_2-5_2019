@@ -1,0 +1,18 @@
+//cerner_2^5_2019
+//Please remove the comments and run the program.
+//The program will draw a flower.
+to LEAF :ANGLE
+repeat 2 [repeat :ANGLE [fd 2 rt 1] rt 180-:ANGLE]
+end
+repeat 3[LEAF 100
+rt 20 setpc 2]
+repeat 3[LEAF 100
+rt 20 setpc 3]
+repeat 3[LEAF 100
+rt 20 setpc 4]
+repeat 3[LEAF 100
+rt 20 setpc 5]
+repeat 3[LEAF 100
+rt 20 setpc 6]
+repeat 3[LEAF 100
+rt 20 setpc 7]
