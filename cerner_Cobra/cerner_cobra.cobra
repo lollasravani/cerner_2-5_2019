@@ -1,4 +1,0 @@
-class Cerner
-
-    def main
-        print 'cerner_2to5_2019'
